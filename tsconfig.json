@@ -7,7 +7,7 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "ESNext",
+    "module": "nodenext",
     "target": "esnext",
     "types": [],
     // For nodejs:
@@ -21,7 +21,8 @@
     "declarationMap": true,
 
     // Stricter Typechecking Options
-    "noUncheckedIndexedAccess": true,
+    "noUncheck
+    edIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
 
     // Style Options
@@ -37,7 +38,6 @@
     "jsx": "react-jsx",
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
-    "moduleResolution": "Node",
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
